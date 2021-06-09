@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="home-container">
+        <div class="add-title"> Get contact </div>
+        <div class="input-container">
+            <form action="/getStatuses" method="post">
+                <label for="url">Website URL</label> <br>
+                {{form.url}}
+            <div class="input-btn"><input type=submit value=Find></div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

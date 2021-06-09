@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="home-container">
+        <div class="add-title"> Add report </div>
+        <div class="form-container">
+            <form action="" method="post">
+                <p>
+                    <label for="url">Website URL</label><br>
+                    {{form.url}}
+                </p>
+                <p>
+                    <label for="status">Status code</label><br>
+                    {{form.status(size=3)}}
+                </p>
+                <div class="add-btn input-btn"><input type=submit value=Add></div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,150 @@
+body{
+    background-color: #1a1a1a;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    background: #1a1a1a;
+    padding: 0 20px;
+}
+
+.nav-btn{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.nav-btn div{
+    transition: all 0.2s ease-in;
+}
+
+.nav-btn div:hover{
+    color: #ffd53a;
+}
+
+.home-container{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 300px;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-container .logo-big-container{
+    width: 100%;
+    padding: 0;
+}
+
+.logo-container .logo-smol-container{
+    width: 100%;
+}
+
+.logo-container .logo-big{
+    font-size: 5em;
+    color: #ff7567;
+}
+
+.logo-container .logo-smol{
+    font-size: 3em;
+    color: #7e302d;
+}
+
+.desc-container{
+    color: #6b6b6b;
+    text-align: justify;
+}
+
+form input[type=text]{
+    border: none;
+    background: #0f0f0f;
+    height: 30px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    color: #c2c2c2;
+}
+
+form input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+
+form label{
+    color: #c2c2c2;
+}
+
+.add-title{
+    color: #ffd53a;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+form input[type=submit] {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: #ffd53a;
+    color: #1a1a1a;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+form input[type=submit]:hover{
+    background: #ff7567;
+    cursor: pointer;
+}
+
+.input-btn{
+    height: 30px;
+    width: 80px;
+}
+
+.form-container{
+    padding-top: 20px;
+}
+
+.input-container{
+    margin-top: 30px;
+}
+
+/*.result-container b{*/
+/*    color: #ffd53a;*/
+/*}*/
+
+.result-container .result-url{
+    color: white;
+    font-weight: 200;
+}
+
+.result-container{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    color: #6b6b6b;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+
+.status-code{
+    color: #ffd53a;
+}
+
+.result-msg{
+    color: #ff7567;
+    margin-bottom: 20px;
+}
+
+.error-container{
+    margin-bottom: 10px;
+}
